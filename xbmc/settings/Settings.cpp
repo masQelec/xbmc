@@ -96,7 +96,6 @@ const std::string CSettings::SETTING_FILELISTS_SHOWEXTENSIONS = "filelists.showe
 const std::string CSettings::SETTING_FILELISTS_IGNORETHEWHENSORTING = "filelists.ignorethewhensorting";
 const std::string CSettings::SETTING_FILELISTS_ALLOWFILEDELETION = "filelists.allowfiledeletion";
 const std::string CSettings::SETTING_FILELISTS_SHOWADDSOURCEBUTTONS = "filelists.showaddsourcebuttons";
-const std::string CSettings::SETTING_FILELISTS_SHOWHIDDEN = "filelists.showhidden";
 const std::string CSettings::SETTING_SCREENSAVER_MODE = "screensaver.mode";
 const std::string CSettings::SETTING_SCREENSAVER_SETTINGS = "screensaver.settings";
 const std::string CSettings::SETTING_SCREENSAVER_PREVIEW = "screensaver.preview";

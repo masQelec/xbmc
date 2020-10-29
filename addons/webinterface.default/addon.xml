@@ -2,7 +2,7 @@
 <addon
   id="webinterface.default"
   version="18.x-2.4.6"
-  name="CoreELEC web interface - Chorus2"
+  name="Kodi web interface - Chorus2"
   provider-name="jez500, Team Kodi">
   <requires>
     <import addon="xbmc.json" version="6.0.0" />
@@ -10,9 +10,11 @@
   <extension point="xbmc.webinterface"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Default web interface</summary>
-    <description lang="en">Browse and interact with your Music, Movies, TV Shows and more via a web browser. Stream music and videos to your browser. Edit and manage your CoreELEC media library.</description>
-    <platform>all</platform>
-    <language>en</language>
+	<summary lang="es">Interfaz web predeterminada </summary>
+    <description lang="en">Browse and interact with your Music, Movies, TV Shows and more via a web browser. Stream music and videos to your browser. Edit and manage your masQelec media library.</description>
+    <description lang="es">Navega e interactúa con tu música, películas, programas de TV y más a través de un navegador web. Transmita música y videos a su navegador. Edite y administre su biblioteca multimedia masQelec.</description>
+	<platform>all</platform>
+    <language>es</language>
     <source>https://github.com/xbmc/chorus2</source>
     <forum>http://forum.xbmc.org/showthread.php?tid=183451</forum>
     <assets>

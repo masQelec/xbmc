@@ -6,7 +6,9 @@
   <extension point="kodi.resource.uisounds"/>
   <extension point="kodi.addon.metadata">
     <summary lang="en">Kodi GUI sounds</summary>
+	<summary lang="es">Sonidos Kodi GUI</summary>
     <description lang="en">Kodi GUI sounds</description>
+    <description lang="es">Sonidos Kodi GUI</description>
     <platform>all</platform>
   </extension>
 </addon>

@@ -9,8 +9,10 @@
     extension=".m4a"
     library_@CORE_SYSTEM_NAME@="dummy.so"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">AAC Audio Encoder</summary>
-    <description lang="en">AAC is a set of codecs designed to provide better compression than MP3s, and are improved versions of MPEG audio.</description>
+<summary lang="en_GB">AAC Audio Encoder</summary>
+	<summary lang="es_ES">Codificador de audio ACC</summary>
+    <description lang="en_GB">AAC is a set of codecs designed to provide better compression than MP3s, and are improved versions of MPEG audio.</description>
+	<description lang="es_ES">AAC es un conjunto de códecs diseñados para proporcionar una mejor compresión que los MP3, y son versiones mejoradas de audio MPEG.</description>
     <platform>all</platform>
   </extension>
 </addon>

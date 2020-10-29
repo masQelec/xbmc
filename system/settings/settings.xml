@@ -676,7 +676,7 @@
       <group id="3" label="14235">
         <setting id="subtitles.languages" type="list[string]" label="24111" help="24112">
           <level>1</level>
-          <default>English</default>
+          <default>Spanish</default>
           <constraints>
             <options>subtitledownloadlanguages</options>
             <delimiter>,</delimiter>
@@ -894,11 +894,6 @@
               </or>
             </dependency>
           </dependencies>
-          <control type="toggle" />
-        </setting>
-        <setting id="filelists.showhidden" type="boolean" label="21330" help="36127">
-          <level>2</level>
-          <default>false</default>
           <control type="toggle" />
         </setting>
         <setting id="filelists.allowfiledeletion" type="boolean" label="14071" help="36125">
@@ -3326,7 +3321,7 @@
       <group id="1" label="14218">
         <setting id="locale.language" type="addon" label="248" help="36114">
           <level>0</level>
-          <default>resource.language.en_gb</default>
+          <default>resource.language.es_es</default>
           <constraints>
             <addontype>kodi.resource.language</addontype>
           </constraints>
@@ -3347,7 +3342,7 @@
         </setting>
         <setting id="locale.keyboardlayouts" type="list[string]" label="310" help="36432">
           <level>0</level>
-          <default>English QWERTY</default>
+          <default>Spanish QWERTY</default>
           <constraints>
             <options>keyboardlayouts</options>
             <delimiter>|</delimiter>
@@ -3360,7 +3355,7 @@
         </setting>
         <setting id="locale.activekeyboardlayout" type="string" label="0" help="0">
           <level>4</level>
-          <default>English QWERTY</default>
+          <default>Spanish QWERTY</default>
         </setting>
       </group>
       <group id="2" label="14270">

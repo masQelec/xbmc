@@ -284,24 +284,6 @@
 							<param name="visible" value="System.GetBool(gamesgeneral.enable)"/>
 						</include>
 						<include content="WidgetListSquare">
-							<param name="content_path" value="addons://sources/executable/"/>
-							<param name="widget_header" value="$LOCALIZE[1043]"/>
-							<param name="widget_target" value="programs"/>
-							<param name="sortby" value="lastused"/>
-							<param name="sortorder" value="descending"/>
-							<param name="list_id" value="8300"/>
-							<param name="fallback_icon" value="DefaultAddon.png"/>
-						</include>
-						<include content="WidgetListSquare" condition="System.Platform.Android">
-							<param name="content_path" value="androidapp://sources/apps/"/>
-							<param name="widget_header" value="$LOCALIZE[20244]"/>
-							<param name="widget_target" value="programs"/>
-							<param name="sortby" value="lastused"/>
-							<param name="sortorder" value="descending"/>
-							<param name="list_id" value="8400"/>
-							<param name="fallback_icon" value="DefaultAddon.png"/>
-						</include>
-						<include content="WidgetListSquare">
 							<param name="content_path" value="addons://sources/image/"/>
 							<param name="widget_header" value="$LOCALIZE[1039]"/>
 							<param name="widget_target" value="pictures"/>
@@ -1066,21 +1048,21 @@
 				<animation effect="slide" end="0,-90" time="300" tween="sine" easing="inout" condition="$EXP[infodialog_active]">conditional</animation>
 				<animation effect="fade" start="0" end="100" time="300">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
-				<top>22</top>
-				<left>95</left>
+				<top>30</top>
+				<left>90</left>
 				<control type="image">
 					<aspectratio>keep</aspectratio>
-					<left>10</left>
-					<width>261</width>
-					<height>80</height>
-					<texture>icons/logo-text-withcenter.png</texture>
+					<width>56</width>
+					<height>56</height>
+					<texture colordiffuse="button_focus">icons/logo.png</texture>
 				</control>
 				<control type="image">
+					<left>40</left>
+					<top>10</top>
 					<aspectratio>keep</aspectratio>
-					<top>1</top>
-					<width>73</width>
-					<height>80</height>
-					<texture colordiffuse="button_focus">icons/logo-nocenter.png</texture>
+					<width>192</width>
+					<height>36</height>
+					<texture>icons/logo-text.png</texture>
 				</control>
 			</control>
 		</control>

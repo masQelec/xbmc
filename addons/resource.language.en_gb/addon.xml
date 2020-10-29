@@ -20,8 +20,11 @@
   </extension>
   <extension point="kodi.addon.metadata">
     <summary lang="en">English language pack</summary>
+	<summary lang="es">Paquete de idioma Ingles</summary>
     <description lang="en">English version of all texts used in Kodi.</description>
+	<description lang="es">Versión en Ingles de todos los textos utilizados en Kodi.</description>
     <disclaimer lang="en">English is the default language for Kodi, removing it may cause issues</disclaimer>
+	<disclaimer lang="es">El inglés es el idioma predeterminado para Kodi, eliminarlo puede causar problemas</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>

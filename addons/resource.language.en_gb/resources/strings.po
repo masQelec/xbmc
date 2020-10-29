@@ -8336,12 +8336,12 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#14278"
-msgid "CoreELEC"
+msgid "masQelec"
 msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#14279"
-msgid "This category contains settings added for CoreELEC."
+msgid "This category contains settings added for masQelec."
 msgstr ""
 
 #: system/settings/settings.xml

@@ -54,13 +54,7 @@
 						<visible>System.CanReboot</visible>
 					</item>
 					<item>
-						<label>Reboot from eMMC/NAND</label>
-						<onclick>System.ExecWait("/usr/sbin/rebootfromnand")</onclick>
-						<onclick>Reset()</onclick>
-						<visible>System.PathExist("/dev/system")</visible>
-					</item>
-					<item>
-						<label>Restart Kodi</label>
+						<label>$LOCALIZE[13019]</label>
 						<onclick>RestartApp()</onclick>
 					</item>
 					<item>

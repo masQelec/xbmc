@@ -6,8 +6,11 @@
     <extension point="kodi.game.controller" library="resources/layout.xml"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Default Controller</summary>
+        <summary lang="es_ES">Controlador predeterminado</summary>
         <description lang="en_GB">The default media center controller is based on the Xbox 360 controller.</description>
-        <disclaimer lang="en_GB">Image credit: Wikipedia (wikipedia.org)</disclaimer>
+        <description lang="es_ES">El mando de centro multimedia predeterminado se basa en el mando Xbox 360.</description>
+		<disclaimer lang="en_GB">Image credit: Wikipedia (wikipedia.org)</disclaimer>
+		<disclaimer lang="es_ES">Crédito de la imagen: Wikipedia (wikipedia.org)</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>

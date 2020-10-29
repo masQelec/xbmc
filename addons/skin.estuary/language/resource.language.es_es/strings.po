@@ -575,3 +575,38 @@ msgstr "Avatar de perfil"
 msgctxt "#31167"
 msgid "Animate background"
 msgstr "Animar fondo"
+
+#: /xml/DialogPlayerProcessInfo.xml
+msgctxt "#31168"
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+#: /xml/DialogPlayerProcessInfo.xml
+msgctxt "#31169"
+msgid "Pixel format"
+msgstr "Formato de píxeles"
+
+#: /xml/DialogPlayerProcessInfo.xml
+msgctxt "#31170"
+msgid "EOTF & Gamut"
+msgstr "EOTF y Gama"
+
+#: /xml/GameOSD.xml
+msgctxt "#31171"
+msgid "Select + X"
+msgstr "Seleccione + X"
+
+#: /xml/GameOSD.xml
+msgctxt "#31172"
+msgid "Select + Start"
+msgstr "Seleccione + Comienzo"
+
+#: /xml/Custom_1101_SettingsList.xml
+msgctxt "#31173"
+msgid "Select + Right Stick"
+msgstr "Seleccione + Stick Derecho"
+
+#: /xml/Settings.xml
+msgctxt "#31174"
+msgid "Control panel"
+msgstr "Panel de control"

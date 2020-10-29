@@ -295,7 +295,7 @@ CUPnPServer::Build(CFileItemPtr                  item,
 
         if (path.StartsWith("musicdb://")) {
             if (path == "musicdb://" ) {
-                item->SetLabel("Music Library");
+                item->SetLabel(g_localizeStrings.Get(14237));
                 item->SetLabelPreformatted(true);
             } else {
                 if (!item->HasMusicInfoTag()) {
@@ -334,7 +334,7 @@ CUPnPServer::Build(CFileItemPtr                  item,
             }
         } else if (file_path.StartsWith("library://") || file_path.StartsWith("videodb://")) {
             if (path == "library://video/" ) {
-                item->SetLabel("Video Library");
+                item->SetLabel(g_localizeStrings.Get(14236));
                 item->SetLabelPreformatted(true);
             } else {
                 if (!item->HasVideoInfoTag()) {
@@ -660,13 +660,13 @@ CUPnPServer::OnBrowseDirectChildren(PLT_ActionReference&          action,
 
             // music library
             item.reset(new CFileItem("musicdb://", true));
-            item->SetLabel("Music Library");
+            item->SetLabel(g_localizeStrings.Get(14237));
             item->SetLabelPreformatted(true);
             items.Add(item);
 
             // video library
             item.reset(new CFileItem("library://video/", true));
-            item->SetLabel("Video Library");
+            item->SetLabel(g_localizeStrings.Get(14236));
             item->SetLabelPreformatted(true);
             items.Add(item);
 

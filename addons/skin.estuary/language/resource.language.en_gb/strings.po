@@ -428,7 +428,7 @@ msgstr ""
 
 #: /xml/LoginScreen.xml
 msgctxt "#31098"
-msgid "Select your CoreELEC user profile[CR]to login and continue"
+msgid "Select your Kodi user profile[CR]to login and continue"
 msgstr ""
 
 #. viewtype name
@@ -530,7 +530,7 @@ msgstr ""
 
 #: /xml/Home.xml
 msgctxt "#31119"
-msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your CoreELEC experience."
+msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
 msgstr ""
 
 #: /xml/Home.xml
@@ -779,4 +779,24 @@ msgstr ""
 #: /xml/DialogPlayerProcessInfo.xml
 msgctxt "#31170"
 msgid "EOTF & Gamut"
+msgstr ""
+
+#: /xml/GameOSD.xml
+msgctxt "#31171"
+msgid "Select + X"
+msgstr ""
+
+#: /xml/GameOSD.xml
+msgctxt "#31172"
+msgid "Select + Start"
+msgstr ""
+
+#: /xml/Custom_1101_SettingsList.xml
+msgctxt "#31173"
+msgid "Select + Right Stick"
+msgstr ""
+
+#: /xml/Settings.xml
+msgctxt "#31174"
+msgid "Control panel"
 msgstr ""

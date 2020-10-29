@@ -10,7 +10,12 @@
              type="weather" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Default Weather Icons</summary>
+	<summary lang="es">Iconos del tiempo por defecto</summary>
     <description lang="en">Default set of Weather Icons shipped with Kodi</description>
+    <description lang="es">Conjunto predeterminado de iconos del tiempo para Kodi</description>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>

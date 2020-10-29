@@ -56,7 +56,6 @@ public:
   static const std::string SETTING_FILELISTS_IGNORETHEWHENSORTING;
   static const std::string SETTING_FILELISTS_ALLOWFILEDELETION;
   static const std::string SETTING_FILELISTS_SHOWADDSOURCEBUTTONS;
-  static const std::string SETTING_FILELISTS_SHOWHIDDEN;
   static const std::string SETTING_SCREENSAVER_MODE;
   static const std::string SETTING_SCREENSAVER_SETTINGS;
   static const std::string SETTING_SCREENSAVER_PREVIEW;

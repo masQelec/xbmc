@@ -9,7 +9,7 @@
     <import addon="metadata.common.imdb.com" version="2.9.2"/>
   </requires>
   <extension point="xbmc.metadata.scraper.tvshows"
-             language="en"
+             language="es"
              library="tmdb.xml"
              cachepersistence="00:15"/>
   <extension point="xbmc.addon.metadata">

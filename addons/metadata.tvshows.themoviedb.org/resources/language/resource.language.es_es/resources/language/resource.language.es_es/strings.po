@@ -63,3 +63,11 @@ msgstr "País de certificación"
 msgctxt "#30013"
 msgid "Get Wide Banners from thetvdb.com"
 msgstr "Obtenga pancartas anchas de thetvdb.com"
+
+msgctxt "#30014"
+msgid "Episode Title Prefix"
+msgstr "Prefijo del título del episodio"
+
+msgctxt "#30015"
+msgid "Episode Title Suffix"
+msgstr "Sufijo del título del episodio"

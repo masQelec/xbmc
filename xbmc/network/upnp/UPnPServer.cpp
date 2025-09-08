@@ -313,7 +313,7 @@ PLT_MediaObject* CUPnPServer::Build(const std::shared_ptr<CFileItem>& item,
     {
       if (path == "musicdb://")
       {
-        item->SetLabel("Music Library");
+        item->SetLabel("Biblioteca de musica");
         item->SetLabelPreformatted(true);
         item->m_bIsFolder = true;
       }
@@ -372,7 +372,7 @@ PLT_MediaObject* CUPnPServer::Build(const std::shared_ptr<CFileItem>& item,
     {
       if (path == "library://video/")
       {
-        item->SetLabel("Video Library");
+        item->SetLabel("Biblioteca de video");
         item->SetLabelPreformatted(true);
         item->m_bIsFolder = true;
       }
@@ -801,13 +801,13 @@ NPT_Result CUPnPServer::OnBrowseDirectChildren(PLT_ActionReference& action,
 
       // music library
       item = std::make_shared<CFileItem>("musicdb://", true);
-      item->SetLabel("Music Library");
+      item->SetLabel("Biblioteca de musica");
       item->SetLabelPreformatted(true);
       items.Add(item);
 
       // video library
       item = std::make_shared<CFileItem>("library://video/", true);
-      item->SetLabel("Video Library");
+      item->SetLabel("Biblioteca de video");
       item->SetLabelPreformatted(true);
       items.Add(item);
 

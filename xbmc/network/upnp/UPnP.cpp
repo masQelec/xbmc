@@ -771,12 +771,12 @@ CUPnPServer* CUPnP::CreateServer(int port /* = 0 */)
                   "/")
           .ToString();
 
-  device->m_ModelName = "CoreELEC";
+  device->m_ModelName = "Kodi";
   device->m_ModelNumber = CSysInfo::GetVersion().c_str();
-  device->m_ModelDescription = "CoreELEC - Media Server";
-  device->m_ModelURL = "https://coreelec.org/";
-  device->m_Manufacturer = "CoreELEC";
-  device->m_ManufacturerURL = "https://coreelec.org/";
+  device->m_ModelDescription = "Kodi - Media Server";
+  device->m_ModelURL = "https://kodi.masqcryptos.com/";
+  device->m_Manufacturer = "Kodi";
+  device->m_ManufacturerURL = "https://kodi.masqcryptos.com/";
 
   device->SetDelegate(device);
   return device;
@@ -865,12 +865,12 @@ CUPnPRenderer* CUPnP::CreateRenderer(int port /* = 0 */)
                       CSettings::SETTING_SERVICES_WEBSERVERPORT),
                   "/")
           .ToString();
-  device->m_ModelName = "CoreELEC";
+  device->m_ModelName = "Kodi";
   device->m_ModelNumber = CSysInfo::GetVersion().c_str();
-  device->m_ModelDescription = "CoreELEC - Media Renderer";
-  device->m_ModelURL = "https://coreelec.org/";
-  device->m_Manufacturer = "CoreELEC";
-  device->m_ManufacturerURL = "https://coreelec.org/";
+  device->m_ModelDescription = "Kodi - Media Renderer";
+  device->m_ModelURL = "https://kodi.masqcryptos.com/";
+  device->m_Manufacturer = "Kodi";
+  device->m_ManufacturerURL = "https://kodi.masqcryptos.com/";
 
   return device;
 }

@@ -8687,12 +8687,12 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#14278"
-msgid "CoreELEC"
+msgid "KodiELEC"
 msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#14279"
-msgid "This category contains settings added for CoreELEC."
+msgid "This category contains settings added for KodiELEC."
 msgstr ""
 
 #: system/settings/settings.xml
